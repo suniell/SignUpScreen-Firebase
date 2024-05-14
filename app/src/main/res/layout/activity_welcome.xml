@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="@color/yellow"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/tvdatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These are the details from the database-"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="serif-monospace"
+        android:textColor="@drawable/greybackground"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="@string/mail" />
+
+    <TextView
+        android:id="@+id/tvuniqueId"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="@string/uniqueid" />
+
+    <Button
+        android:id="@+id/btnaddcontact"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="40dp"
+        android:text="CLICK TO ADD NEW CONTACT"
+        />
+</LinearLayout>

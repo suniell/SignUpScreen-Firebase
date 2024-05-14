@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">assignment copy of  1</string>
+    <string name="welcome">Welcome</string>
+    <string name="mail">MAIL</string>
+    <string name="uniqueid">UNIQUEID</string>
+    <string name="signin">SIGNIN</string>
+    <string name="username">Username</string>
+    <string name="n">SIGNIN</string>
+</resources>
